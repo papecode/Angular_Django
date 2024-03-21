@@ -1,0 +1,33 @@
+# Ignore les fichiers générés par l'IDE ou l'éditeur de texte
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore les fichiers générés par Django
+*.log
+db.sqlite3
+
+# Ignore les fichiers statiques collectés
+/staticfiles/
+
+# Ignore le répertoire de médias
+/DjangoAPI/galerie/
+
+# Ignore les fichiers de configuration de l'environnement virtuel (venv ou virtualenv)
+.env
+/.venv/
+/myenv/
+
+# Ignore les fichiers de configuration locaux
+/local_settings.py
+
+# Ignore les fichiers de sauvegarde
+*~
+
+# Ignore les fichiers de configuration spécifiques à l'utilisateur
+*.swp
+
+# Ignore les fichiers de dépendances Python
+pip-wheel-metadata/
